@@ -1,0 +1,25 @@
+.filtered-list{
+    margin: 20px auto;
+    width: 80%;
+    text-align: left;
+}
+
+.filtered-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.filtered-list li{
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.filtered-list li:last-child{
+    border-bottom: none;
+}
+
+.filtered-list p {
+    font-size: 16px;
+    color: #888;
+    text-align: center;
+}
